@@ -13,7 +13,7 @@ public class RegisterTest {
         // setam fereastra browserului in full screen
         driver.manage().window().maximize();
         //navigam pe URL-ul dorit
-        driver.get("https://tutorialsninja.com/demo/");
+        driver.get(TestData.URL);
         // click pe My Account Button
         driver.findElement(By.xpath("//a[@title='My Account']")).click();
         // click pe Register
@@ -49,10 +49,10 @@ public class RegisterTest {
         // dau click pe butonul continue
         driver.findElement(By.xpath("//a[contains(text(), 'Continue')]")).click();
 
+        /*TODO: Test log in in care isi pune user si parola si intrat pe unul din produse si se adauga in cos
+          TODO: addToCartTest si atat - locatori doar xpath
+         */
 
-        //Tema: Test log in in care isi pune user si parola si intrat pe unul din produse si se adauga in cos
-
-        // addToCartTest si atat - locatori doar xpath
 
 
 

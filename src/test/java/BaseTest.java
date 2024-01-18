@@ -8,6 +8,6 @@ public class BaseTest {
     public void goToWebsiteTest() {
 
         WebDriver driver = new ChromeDriver();
-        driver.get("https://tutorialsninja.com/demo/");
+        driver.get(TestData.URL);
     }
 }

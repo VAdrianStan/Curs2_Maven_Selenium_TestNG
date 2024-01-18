@@ -17,7 +17,7 @@ public class LogInTest {
         // setam fereastra browserului in full screen
         driver.manage().window().maximize();
         //navigam pe URL-ul dorit
-        driver.get("https://tutorialsninja.com/demo/");
+        driver.get(TestData.URL);
         // click pe My Account Button
         driver.findElement(By.xpath("//a[@title='My Account']")).click();
         // click pe Login
